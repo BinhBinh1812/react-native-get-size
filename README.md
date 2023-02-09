@@ -13,7 +13,13 @@ npm install react-native-get-size
 ```js
 import { getSize } from 'react-native-get-size';
 
-// ...
+/**
+ * getSize.m(10) Responsive for padding - margin - fontSize.
+ *
+ * getSize.s(10) Responsive by width screen. (Image Size)
+ *
+ * getSize.v(10) Responsive by height screen.
+ **/
 
 const paddingTop = getSize.m(10);
 ```
