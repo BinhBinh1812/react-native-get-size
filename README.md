@@ -11,11 +11,11 @@ npm install react-native-get-size
 ## Usage
 
 ```js
-import { multiply } from 'react-native-get-size';
+import { getSize } from 'react-native-get-size';
 
 // ...
 
-const result = await multiply(3, 7);
+const paddingTop = getSize.m(10);
 ```
 
 ## Contributing
